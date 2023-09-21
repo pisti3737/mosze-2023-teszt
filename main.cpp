@@ -12,7 +12,7 @@ int main()
     }
     for (int i = 0; i<N_ELEMENTS; i++) //hiba, a feltetel nem megfelelo JAVITVA
     {
-        std::cout << "Ertek:"; //hiba, nincs a sor v�g�n ';' karakter JAVITVA
+        std::cout << "Ertek:"; //hiba, nincs a sor végén ';' karakter JAVITVA
     }    
     std::cout << "Atlag szamitasa: " << std::endl;
     int atlag=0;     //hiba, az atlag nincs inicializalva JAVITVA
@@ -22,5 +22,6 @@ int main()
     }
     atlag /= N_ELEMENTS;
     std::cout << "Atlag: " << atlag << std::endl;
+    std:cout<<"minden rendben működik"
     return 0;
 }
